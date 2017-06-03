@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);body, * {
+  font-family: 'Source Sans Pro', sans-serif, Helvetica;
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  max-width: 100%; }
+
+.form-input {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 15px 20px;
+  min-height: 45px;
+  box-sizing: border-box;
+  outline: none; }
+  .form-input:focus, .form-input:active {
+    border: 1px solid #444; }
+
+.form-button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 2px;
+  font-weight: 700;
+  background-color: #c01f54;
+  border: 1px solid #c01f54;
+  color: #fff; }
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 96%; } }
+
+.header-banner {
+  position: relative; }
+
+.header-title {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 2px 10px #000; }
+  @media screen and (max-width: 768px) {
+    .header-title {
+      left: 20px;
+      bottom: 20px;
+      line-height: 1;
+      font-size: 40px; } }
+
+.header-description {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 30px 0;
+  border-bottom: 1px solid #d4d4d4;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.comment-box-title {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 35px;
+  font-weight: 600; }
+
+.comment-list li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #d4d4d4; }
+
+.comment-list .user-photo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 3px solid #d4d4d4;
+  border-radius: 50%;
+  padding: 2px; }
+  @media screen and (max-width: 768px) {
+    .comment-list .user-photo {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px; } }
+  .comment-list .user-photo img {
+    width: 100%;
+    border-radius: 50%; }
+
+.comment-list .comment-box {
+  display: inline-block;
+  width: calc(100% - 130px); }
+  @media screen and (max-width: 768px) {
+    .comment-list .comment-box {
+      width: calc(100% - 60px); } }
+
+.comment-list .user-name {
+  font-weight: 600;
+  font-size: 20px; }
+
+.comment-list .comment-text {
+  display: inline-block;
+  margin-top: 10px; }
+
+.comment-list .comment-date {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-weight: 600; }
+
+.comment-box {
+  display: inline-block; }
